@@ -207,12 +207,6 @@
 .save-section-button:hover::before {
   transform: translateX(0);
 }
-.button__text {
-  position: relative;
-  z-index: 1;
-  color: var(--white);
-  mix-blend-mode: difference;
-}
 .floppy-svg {
   position: relative;
   z-index: 2;
@@ -383,6 +377,10 @@ body:has(.dialog[open]) {
   font-size: 14px;
   line-height: 90%;
   color: var(--white);
+  position: relative;
+  z-index: 1;
+  color: var(--white);
+  mix-blend-mode: difference;
 }
 @media (width <= 375px) {
   .header-section {
