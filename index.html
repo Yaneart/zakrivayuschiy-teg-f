@@ -11,21 +11,22 @@
     <link rel="stylesheet" href="./styles/animations.css" />
     <link rel="icon" href="./images/favicon.ico" sizes="any" />
     <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./images/favicon.png" sizes="180x180">
   </head>
   <body class="page">
     <header class="header">
       <div class="header-section">
         <h1 class="header__title">&lt;/HTML&gt;</h1>
-        <h2 class="header__title-second">закрывающий тег</h2>
+        <h2 class="header__subtitle">закрывающий тег</h2>
       </div>
     </header>
     <main class="main">
-      <div class="main__block">
+      <article class="main__block">
         <h2 class="main__title">
           Фритрек и нулевой спринт: Подготовка к работе
         </h2>
         <div class="image-container">
-          <img src="./images/2.jpg" alt="Синее исскуство" class="filter1" />
+          <img src="./images/2.jpg" alt="Синее исскуство" class="filter__brightness" />
           <p class="image-label">&lt;Navy&gt;</p>
         </div>
         <p class="main__paragraph">
@@ -40,11 +41,12 @@
           знания меняют взгляд на привычные вещи.
         </p>
         <div class="main__button-section">
-          <button class="card__icon-button">
+          <button type="button" class="card__icon-button">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 39 36"
               class="like-icon"
+              aria-hidden="true"
             >
               <g class="heart">
                 <path
@@ -70,15 +72,15 @@
               />
             </svg>
           </button>
-          <button class="card__like-button">
+          <button type="button" class="card__like-button button">
             <span class="button__text">Like</span>
           </button>
         </div>
-      </div>
-      <div class="main__block">
+      </article>
+      <article class="main__block">
         <h2 class="main__title">1 спринт: Я — чистый лист</h2>
         <div class="image-container">
-          <img src="./images/1.jpg" alt="Синее исскуство" class="filter2" />
+          <img src="./images/1.jpg" alt="Синее исскуство" class="filter__saturate" />
           <p class="image-label">&lt;Sky blue&gt;</p>
         </div>
         <p class="main__paragraph">
@@ -94,11 +96,12 @@
           объять необъятное, а двигаться постепенно.
         </p>
         <div class="main__button-section">
-          <button class="card__icon-button">
+          <button type="button" class="card__icon-button">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 39 36"
               class="like-icon"
+              aria-hidden="true"
             >
               <g class="heart">
                 <path
@@ -124,15 +127,15 @@
               />
             </svg>
           </button>
-          <button class="card__like-button">
+          <button type="button" class="card__like-button button">
             <span class="button__text">Like</span>
           </button>
         </div>
-      </div>
-      <div class="main__block">
+      </article>
+      <article class="main__block">
         <h2 class="main__title">1 спринт: А если не получится?</h2>
         <div class="image-container">
-          <img src="./images/3.jpg" alt="Синее исскуство" class="filter3" />
+          <img src="./images/3.jpg" alt="Синее исскуство" class="filter__blur" />
           <p class="image-label">&lt;Turquoise&gt;</p>
         </div>
         <p class="main__paragraph">
@@ -146,11 +149,12 @@
           себя — наоборот, показали, чему ещё можно научиться.
         </p>
         <div class="main__button-section">
-          <button class="card__icon-button">
+          <button type="button" class="card__icon-button">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 39 36"
               class="like-icon"
+              aria-hidden="true"
             >
               <g class="heart">
                 <path
@@ -176,15 +180,15 @@
               />
             </svg>
           </button>
-          <button class="card__like-button">
+          <button type="button" class="card__like-button button">
             <span class="button__text">Like</span>
           </button>
         </div>
-      </div>
-      <div class="main__block">
+      </article>
+      <article class="main__block">
         <h2 class="main__title">2 спринт: Погоня за идеалом</h2>
         <div class="image-container">
-          <img src="./images/4.jpg" alt="Синее исскуство" class="filter4" />
+          <img src="./images/4.jpg" alt="Синее исскуство" class="filter__sepia" />
           <p class="image-label">&lt;Azure&gt;</p>
         </div>
         <p class="main__paragraph">
@@ -200,11 +204,12 @@
           уже умею, а вот это — новое, попробую!
         </p>
         <div class="main__button-section">
-          <button class="card__icon-button">
+          <button type="button" class="card__icon-button">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 39 36"
               class="like-icon"
+              aria-hidden="true"
             >
               <g class="heart">
                 <path
@@ -230,15 +235,15 @@
               />
             </svg>
           </button>
-          <button class="card__like-button">
+          <button type="button" class="card__like-button button">
             <span class="button__text">Like</span>
           </button>
         </div>
-      </div>
-      <div class="main__block">
+      </article>
+      <article class="main__block">
         <h2 class="main__title">2 спринт: О тех, кто рядом</h2>
         <div class="image-container">
-          <img src="./images/5.jpg" alt="Синее исскуство" class="filter5" />
+          <img src="./images/5.jpg" alt="Синее исскуство" class="filter__opacity" />
           <p class="image-label">&lt;Cobalt&gt;</p>
         </div>
         <p class="main__paragraph">
@@ -253,11 +258,12 @@
           тем, кто подсказал, поддержал и не дал сойти с ума от display: flex.
         </p>
         <div class="main__button-section">
-          <button class="card__icon-button">
+          <button type="button" class="card__icon-button">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 39 36"
               class="like-icon"
+              aria-hidden="true"
             >
               <g class="heart">
                 <path
@@ -283,15 +289,15 @@
               />
             </svg>
           </button>
-          <button class="card__like-button">
+          <button type="button" class="card__like-button button">
             <span class="button__text">Like</span>
           </button>
         </div>
-      </div>
-      <div class="main__block">
+      </article>
+      <article class="main__block">
         <h2 class="main__title">3 спринт: Обходные стратегии</h2>
         <div class="image-container">
-          <img src="./images/6.jpg" alt="Синее исскуство" class="filter6" />
+          <img src="./images/6.jpg" alt="Синее исскуство" class="filter__grayscale" />
           <p class="image-label">&lt;Aquamarine&gt;</p>
         </div>
         <p class="main__paragraph">
@@ -305,11 +311,12 @@
           auto в жизни.
         </p>
         <div class="main__button-section">
-          <button class="card__icon-button">
+          <button type="button" class="card__icon-button">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 39 36"
               class="like-icon"
+              aria-hidden="true"
             >
               <g class="heart">
                 <path
@@ -335,15 +342,15 @@
               />
             </svg>
           </button>
-          <button class="card__like-button">
+          <button type="button" class="card__like-button button">
             <span class="button__text">Like</span>
           </button>
         </div>
-      </div>
-      <div class="main__block">
+      </article>
+      <article class="main__block">
         <h2 class="main__title">3 спринт: Когда опускаются руки</h2>
         <div class="image-container">
-          <img src="./images/7.jpg" alt="Синее исскуство" class="filter7" />
+          <img src="./images/7.jpg" alt="Синее исскуство" class="filter__contrast" />
           <p class="image-label">&lt;Sapphire&gt;</p>
         </div>
         <p class="main__paragraph">
@@ -358,11 +365,12 @@
           неё отойти.
         </p>
         <div class="main__button-section">
-          <button class="card__icon-button">
+          <button type="button" class="card__icon-button">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 39 36"
               class="like-icon"
+              aria-hidden="true"
             >
               <g class="heart">
                 <path
@@ -388,15 +396,15 @@
               />
             </svg>
           </button>
-          <button class="card__like-button">
+          <button type="button" class="card__like-button button">
             <span class="button__text">Like</span>
           </button>
         </div>
-      </div>
-      <div class="main__block">
+      </article>
+      <article class="main__block">
         <h2 class="main__title">«Сейчас я здесь»</h2>
         <div class="image-container">
-          <img src="./images/8.jpg" alt="Синее исскуство" class="filter8" />
+          <img src="./images/8.jpg" alt="Синее исскуство" class="filter__combo" />
           <p class="image-label">&lt;Ultramarine&gt;</p>
         </div>
         <p class="main__paragraph">
@@ -413,11 +421,12 @@
           возможностей.
         </p>
         <div class="main__button-section">
-          <button class="card__icon-button">
+          <button type="button" class="card__icon-button">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 39 36"
               class="like-icon"
+              aria-hidden="true"
             >
               <g class="heart">
                 <path
@@ -443,14 +452,15 @@
               />
             </svg>
           </button>
-          <button class="card__like-button">
+          <button type="button" class="card__like-button button">
             <span class="button__text">Like</span>
           </button>
         </div>
-      </div>
+      </article>
       <div class="save-section">
         <button
-          class="save-section-button"
+          type="button"
+          class="save-section-button button"
           onclick="window['dialog'].showModal()"
         >
           <svg
@@ -476,10 +486,9 @@
           <use href="/svg/floppy.svg"></use>
         </svg>
         <p class="dialog-paragraph">
-          Вставьте<br />
-          дискету, чтобы продолжить
+          Вставьте дискету, чтобы продолжить
         </p>
-        <button class="dialog-botton" onclick="window['dialog'].close()">
+        <button type="button" class="dialog-botton button" onclick="window['dialog'].close()">
           <span class="button__text">ок</span>
         </button>
       </dialog>
