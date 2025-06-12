@@ -30,5 +30,5 @@
   --padding: clamp(24px, 8vw, 128px) clamp(12px, 4vw, 120.5px);
   --header-font-title: clamp(3.0625rem, 2.2114rem + 4.2553vw, 4.0625rem);
   --header-font-title-second: clamp(0.875rem, 0.3963rem + 2.3936vw, 1.4375rem);
-  --font-variation-settings: "wght" 400;
+  --font-variation-settings: 400;
 }
