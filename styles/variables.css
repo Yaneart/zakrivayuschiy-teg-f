@@ -2,33 +2,29 @@
 :root {
   --text: "Inter";
   --title: "Press Start 2P";
-  --page-background: linear-gradient(
-      to bottom,
-      #e7e7e7 0%,
-      #e7e7e7 0.01%,
-      #1a1a1a 100%
-    ),
-    repeating-linear-gradient(
-      to bottom,
-      #d3d3d3 0px,
-      #d3d3d3 2px,
-      transparent 2px,
-      transparent 4px
-    ),
-    repeating-linear-gradient(
+  --page-background: repeating-linear-gradient(
       to right,
       #d3d3d3 0px,
       #d3d3d3 2px,
       transparent 2px,
       transparent 4px
-    );
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      #d3d3d3 0px,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(to bottom, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
   --contour-color: black;
   --animation-fill-color: red;
   --black: black;
   --white: white;
   --header-width: clamp(320px, 100%, 700px);
-  --padding: clamp(24px, 8vw, 128px) clamp(12px, 4vw, 120.5px);
+  --padding: clamp(24px, 10vw, 128px) clamp(12px, 4vw, 120.5px);
   --header-font-title: clamp(3.0625rem, 2.2114rem + 4.2553vw, 4.0625rem);
   --header-font-title-second: clamp(0.875rem, 0.3963rem + 2.3936vw, 1.4375rem);
-  --font-variation-settings: 400;
+  --variation-settings-normal: "wght" 400;
+  --variation-settings-bold: "wght" 700;
 }
